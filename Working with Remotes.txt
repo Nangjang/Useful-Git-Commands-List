@@ -1,0 +1,31 @@
+🌐 Working with Remotes
+
+Name: Add a Remote Repository
+Command: git remote add origin <repository-url>
+Example: git remote add origin https://github.com/username/repository.git
+Description: Adds a remote repository to your local Git configuration.
+
+Name: Remove a Remote Repository
+Command: git remote remove <remote-name>
+Example: git remote remove origin
+Description: Removes the specified remote repository from your local configuration.
+
+Name: View Remote Repositories
+Command: git remote -v
+Example: git remote -v
+Description: Displays the remote repositories associated with your local repository.
+
+Name: Push Changes to Remote
+Command: git push -u origin <branch-name>
+Example: git push -u origin main
+Description: Uploads changes from your local branch to the specified remote branch and sets up tracking.
+
+Name: Fetch Changes from Remote
+Command: git fetch
+Example: git fetch
+Description: Retrieves updates from a remote repository without applying them.
+
+Name: Pull Changes from Remote
+Command: git pull
+Example: git pull
+Description: Retrieves and integrates updates from a remote repository into your current branch.

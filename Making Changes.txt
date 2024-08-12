@@ -1,0 +1,26 @@
+✏️ Making Changes
+
+Name: Stage a File
+Command: git add <file>
+Example: git add index.html
+Description: Adds changes in the specified file to the staging area.
+
+Name: Stage All Changes
+Command: git add .
+Example: git add .
+Description: Stages all changes in the current directory and its subdirectories.
+
+Name: Commit Changes
+Command: git commit -m "Your commit message"
+Example: git commit -m "Add homepage layout"
+Description: Commits the staged changes to the repository with a descriptive message.
+
+Name: Commit All Changes with a Message
+Command: git commit -am "Your Commit Message"
+Example: git commit -am "Fix bug in homepage layout"
+Description: Commits all staged and tracked changes in the working directory with a specified commit message. The -a flag stages all tracked files (excluding new files that are not yet tracked), and the -m flag allows you to add a commit message inline.
+
+Name: Amend the Last Commit
+Command: git commit --amend -m "New commit message"
+Example: git commit --amend -m "Update homepage layout"
+Description: Modifies the last commit, including any additional changes and updating the commit message.

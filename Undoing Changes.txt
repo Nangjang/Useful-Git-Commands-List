@@ -1,0 +1,21 @@
+🔄 Undoing Changes
+
+Name: Undo Local Changes in a File
+Command: git checkout -- <file>
+Example: git checkout -- index.html
+Description: Discards local changes in the specified file and reverts it to the last committed state.
+
+Name: Revert a Commit
+Command: git revert <commit-hash>
+Example: git revert a1b2c3d
+Description: Creates a new commit that undoes the changes made by a specified commit.
+
+Name: Reset to a Previous Commit
+Command: git reset --hard <commit-hash>
+Example: git reset --hard a1b2c3d
+Description: Resets the current branch to the specified commit, discarding all changes in the working directory and staging area.
+
+Name: Remove Unstaged Changes
+Command: git reset
+Example: git reset
+Description: Unstages changes from the staging area but keeps them in the working directory.

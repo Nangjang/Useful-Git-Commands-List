@@ -1,0 +1,16 @@
+📜 Viewing History
+
+Name: View Commit History
+Command: git log
+Example: git log
+Description: Displays a list of commits in the current branch.
+
+Name: View a Specific Commit
+Command: git show <commit-hash>
+Example: git show a1b2c3d
+Description: Shows details about a specific commit.
+
+Name: View Commit History with Graph
+Command: git log --graph --oneline --decorate --all
+Example: git log --graph --oneline --decorate --all
+Description: Displays the commit history in a graphical format, showing branches and merges.

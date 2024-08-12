@@ -1,0 +1,51 @@
+⚙️ Advanced Topics
+
+Name: Rebase a Branch
+Command: git rebase <branch-name>
+Example: git rebase main
+Description: Reapplies commits from the current branch on top of another branch (e.g., main). Useful for integrating changes from one branch to another.
+
+Name: Interactive Rebase
+Command: git rebase -i <commit-hash>
+Example: git rebase -i HEAD~3
+Description: Opens an interactive editor to modify commits (e.g., reorder, squash, edit) in the specified range of commits.
+
+Name: Cherry-Pick a Commit
+Command: git cherry-pick <commit-hash>
+Example: git cherry-pick a1b2c3d
+Description: Applies the changes from a specific commit to the current branch. Useful for applying individual changes without merging the entire branch.
+
+Name: Stash Changes with a Message
+Command: git stash save "message"
+Example: git stash save "WIP: fixing layout issue"
+Description: Saves the current changes to a stash with a descriptive message, allowing you to apply or inspect them later.
+
+Name: Apply Stashed Changes
+Command: git stash apply
+Example: git stash apply
+Description: Applies the most recent stash to your working directory.
+
+Name: List Stashes
+Command: git stash list
+Example: git stash list
+Description: Lists all saved stashes with their identifiers.
+
+Name: Drop a Stash
+Command: git stash drop
+Example: git stash drop stash@{0}
+Description: Removes a specific stash from the stash list.
+
+Name: Create a Bare Repository
+Command: git init --bare <repo-name>.git
+Example: git init --bare myproject.git
+Description: Initializes a bare repository, used typically as a remote repository without a working directory.
+
+Name: Pre-Commit Hook
+Command: .git/hooks/pre-commit
+Example: Create a script in .git/hooks/pre-commit
+Description: Runs a script before a commit is finalized, allowing you to automate tasks like code linting.
+
+Name: Post-Commit Hook
+Command: .git/hooks/post-commit
+Example: Create a script in .git/hooks/post-commit
+Description: Executes a script after a commit is made, useful for notifications or logging.

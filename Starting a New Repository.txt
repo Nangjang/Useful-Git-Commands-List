@@ -1,0 +1,16 @@
+📂 Starting a New Repository
+
+Name: Initialize a Repository
+Command: git init
+Example: git init
+Description: Creates a new Git repository in the specified directory.
+
+Name: Initialize a Repository with a Specific Branch
+Command: git init -b <branch-name>
+Example: git init -b develop
+Description: Initializes a new repository with the default branch set to 'develop'.
+
+Name: Clone a Repository
+Command: git clone <repository-url>
+Example: git clone https://github.com/username/repository.git
+Description: Creates a local copy of a remote repository.

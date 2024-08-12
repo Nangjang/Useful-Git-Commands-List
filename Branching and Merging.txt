@@ -1,0 +1,41 @@
+🔀 Branching and Merging
+
+Name: List Branches
+Command: git branch
+Example: git branch
+Description: Displays all branches in the repository and highlights the current branch.
+
+Name: Create a New Branch
+Command: git branch <branch-name>
+Example: git branch feature/homepage
+Description: Creates a new branch with the specified name.
+
+Name: Switch to an Existing Branch
+Command: git checkout <branch-name>
+Example: git checkout main
+Description: Switches to an existing branch.
+
+Name: Create and Switch to a New Branch
+Command: git checkout -b <branch-name>
+Example: git checkout -b feature/homepage
+Description: Creates a new branch and switches to it immediately.
+
+Name: Rename the Current Branch
+Command: git branch -m <new-branch-name>
+Example: git branch -m main master
+Description: Renames the current branch to the specified new branch name.
+
+Name: Delete a Branch Locally
+Command: git branch -d <branch-name>
+Example: git branch -d feature/homepage
+Description: Deletes the specified branch locally, provided it has been fully merged.
+
+Name: Force Delete a Branch Locally
+Command: git branch -D <branch-name>
+Example: git branch -D feature/homepage
+Description: Forces deletion of the specified branch, even if it hasn’t been merged.
+
+Name: Merge a Branch
+Command: git merge <branch-name>
+Example: git merge feature/homepage
+Description: Merges changes from the specified branch into the current branch.
